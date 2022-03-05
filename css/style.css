@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(../img/slider-01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(32, 32, 32, 0.747);
+   
+ 
+}
+.navbar-nav .nav-item{
+ padding: 10px;
+ margin-left: 10px;
+
+}
+.caption{
+height: 100vh;
+position: relative;
+}
+.caption h1{
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    font-size: 59px;
+ 
+}
+.caption p{
+    color: #fff;
+    position: absolute;
+    top: 59%;
+    left: 45%;
+    font-size: 30px;
+}
+/********************************************************/
+.about{
+    background-color: #fff;
+    /* border: 3px solid rgb(238, 238, 238); */
+    box-shadow: 2px 2px 2px 2px rgb(177, 177, 177);
+    padding: 40px;
+}
+.prag{
+    font-size: 19px;
+    color: gray;
+}
+/*****************************************************************************/
+.item{
+padding-top:70px;
+padding-bottom: 50px;
+text-align: center;
+}
+.server{
+    text-align: center;
+    /* background-color: #fff; */
+}
+.server:hover .icon{
+    color: #fff;
+    background-color: #0078ff;
+    border: 8px solid rgba(238, 245, 247, 0.822);
+    
+}
+.server h3{
+    padding-top: 20px;
+}
+.icon{
+    text-align: center;
+    font-size: 39px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    border: 8px solid #0078ff;
+}
+/*****************************************************/
+.photo{
+    background-image: url(../img/post-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(6, 197, 250, 0.747);
+ 
+}
+.icon1{
+    text-align: center;
+    font-size: 39px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    color: #fff;
+}
+/**********************************************************************/
+.pict:hover img{
+    transform: scale(1.1);
+    transition-duration:2s ;
+    transition: transform 2s;
+}
+/*****************************************************************/
+.blog{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+.slide1{
+    text-align: center;
+    padding: 10px;
+    padding-top: 80px;
+}
+.slide1 h2,p{
+padding: 10px;
+}
+.slide1 img{
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
